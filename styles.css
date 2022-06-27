@@ -1,0 +1,38 @@
+
+body {
+    width: 90%;
+}
+
+header {
+    margin: 30px;
+    position: relative;
+}
+nav {
+    display: flex;
+    height: 16px;
+
+}
+
+/* For Desktop View */
+
+@media screen and (min-width: 1440px) {
+    header {
+        margin: 30px;
+        position: relative;
+    }
+    nav {
+        display: flex;
+        height: 16px;
+
+    }
+    nav button {
+        margin-left: 100vh;
+    }
+}
+
+
+/* For Mobile View */
+
+@media screen and (min-width: 375px) {
+
+}
