@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,60 +8,109 @@
     <title>Huddle</title>
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="icon" href="./images/favicon-32x32.png" type="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:wght@600&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
             <img src="./images/logo.svg" alt="logo">
-            <button id="btn1">Try It Free</button>
+            <button id="btn">Try It Free</button>
         </nav>
+        <section class="hero-section">
+                <div id="top-page">
+                    <h1>Build The Community <br> Your Fans Will Love</h1>
+                    <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+                    <button id="btn">Get Started For Free</button>
+                </div>
+                <div id="img">
+                    <img src="./images/illustration-mockups.svg" alt="mockups" width="800" height="600">
+                </div>
+        </section>
     </header>
+
     <main>
-        <div id="pg-1">
-            <div id="txt-1-div">
-                <h1>Build The Community Your Fans Will Love</h1>
-                <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
-                <button id="btn2">Get Started For Free</button>
-            </div>
-            <div id="img-1-div">
-                <img src="./images/illustration-mockups.svg" alt="mockups">
-            </div>
-        </div>
-        <div id="pg-2">
-            <div id="txt-2-div">
-                <h2>Grow Together</h2>
+        <div class="slides" id="grow">
+            <div id="txt">
+                <h3>Grow Together</h3>
                 <p>Generate meaningful discussions with your audience and build a strong, loyal community.</p>
             </div>
-            <div id="img-2-div">
-                <img src="./images/illustration-grow-together.svg" alt="grow">
+            <div id="img">
+                <img src="./images/illustration-grow-together.svg" alt="grow" width="600" height="500" >
             </div>
         </div>
-        <div id="pg-3">
-            <div id="img-3">
+        <div class="slides" id="flow">
+            <div id="img">
                 <img src="./images/illustration-flowing-conversation.svg" alt="flow">
             </div>
-            <div id="txt-3-div">
+            <div id="txt">
                 <h2>Flowing Conversations</h2>
                 <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
             </div>
         </div>
-        <div id="pg-4">
-            <div id="txt-4-div">
+        <div class="slides" id="users">
+            <div id="txt">
                 <h2>Your Users</h2>
                 <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
             </div>
-            <div id="img-4">
+            <div id="img">
                 <img src="./images/illustration-your-users.svg" alt="users">
             </div>
         </div>
-        <div id="pg-5">
-            <div id="txt-5">
+    </main>
 
+    <footer>
+        <div id="box">
+                <h2>Ready To Build Your Community?</h2>
+                <button id="btn">Get Started For Free</button>
+        </div>
+        <div id="connect">
+            <div id="col-1">
+                <img id="white-logo" src="./images/logo.svg" alt="logo">
+                <div class="list">
+                    <img id="location" src="./images/icon-location.svg" alt="location icon">
+                    <p>Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do euismod tempor incididunt ut labore
+                        et doiore magna aliqua</p>
+                </div>
+                <div class="list">
+                    <img src="./images/icon-phone.svg" alt="location icon">
+                    <p>+1-543-123-4567</p>
+                </div>
+                <div class="list">
+                    <img src="./images/icon-email.svg" alt="location icon">
+                    <p>example@huddle.com</p>
+                </div>
             </div>
-            <div id="btn-3-div">
-                <button id="btn3">Get Started For Free</button>
+
+            <div id="col-2">
+                <p>About Us</p>
+                <p>What We Do</p>
+                <p>FAQ</p>
+            </div>
+            <div id="col-3">
+                <p>Career</p>
+                <p>Blog</p>
+                <p>Contact Us</p>
+            </div>
+            <div id="col-4">
+                <img src="./images/facebook.svg" alt="facebook">
+                <img src="./images/twitter.svg" alt="twitter">
+                <img src="./images/instagram.svg" alt="instagram">
             </div>
         </div>
-    </main>
+        <div id="copyright">
+            <!-- copyright icon -->
+            <small> © Copyright 2018 Huddle. All rights reserved.</small>
+        </div>
+    </footer>
 </body>
 </html>
